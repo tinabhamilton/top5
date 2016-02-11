@@ -19,6 +19,7 @@ class ArtistsController < ApplicationController
 
   # GET /artists/1/edit
   def edit
+    @artists = Artist.all
   end
 
   # POST /artists
