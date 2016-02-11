@@ -15,10 +15,6 @@
      <div class="well">
      <h2> <%= link_to song.name, song %></h2>
 
-       <% if song.video.presence %>
-       <small><i class="glyphicon glyphicon-play"></i><small>
-       <% end %>
-
      <h4><%= song.artist.name %></h4>
      <h4><% song.rating.times do %>
      <i class="glyphicon glyphicon-star"></i>
